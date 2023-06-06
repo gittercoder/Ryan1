@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(rgb(101, 13, 128), rgb(80, 140, 155));
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+h1{
+    color: white;
+}
+.content{
+    text-align: center;
+    width: 330px;
+    margin-left: 250px;
+    
+}
+form{
+    text-align: center;
+    ;
+    
+}
+
+p{
+    
+    color: white;
+}
+label{
+    color: white;
+}
+input{
+    height: 20px;
+    width: 325px;
+}
+textarea{
+    width: 325px;
+    height: 100px;
+}

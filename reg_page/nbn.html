@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Registration Form </title>
+  <script>
+    function showAlert() {
+      alert("Submit button clicked!");
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+  <div class="first">
+  <div class="details">
+  <form>
+    <div style="margin-top: 0px;">
+    <h1 >Registration Form</h1>
+    </div>
+    <div style="display: flex;">
+
+    <div style="margin-right: 60px; margin-bottom: 20px;">
+      <label for="fname" >First Name:</label>
+      <div>
+        <input type="text" name="fname">
+      </div>
+    </div>
+
+    <div>
+      <label for="lname" >Last Name:</label>
+      <div>  
+        <input type="text" name="lname">
+      </div>
+    </div>
+
+    </div>
+
+    <div style="display: flex;">
+    
+    <div style="margin-right: 60px; margin-bottom: 20px;" >
+      <label for="Birthday" >Birthday:</label>
+      <div>
+        <input type="date" name="Birthday">
+      </div>
+    </div>
+
+    <div >
+      <label for="gender" >Gender:</label>
+    
+      <div>
+        <input type="radio" name="gender" value="male" />Male 
+        <input type="radio" name="gender" value="female" />Female <br />
+      </div>
+    </div>
+    
+    </div>
+    <div style="display: flex;">
+
+    <div style="margin-right: 60px; margin-bottom: 20px;" >
+      <label for="email" >Email:</label>
+      <div>
+      <input type="text" name="email" >
+      </div>
+    </div>
+    <div >
+
+      <label for="phno" >Phone Number:</label>
+      <div>
+        <input type="text" name="phno">
+      </div>
+    </div>
+    </div>
+    <div style="display: flex;">
+      <div >
+      <label for="subject" >Subject:</label>
+    <div>
+    <select name="gender" style="width: 400px; margin-top: 5px;">
+      <option value="">Choose Option</option>
+      <option value="female">a</option>
+      <option value="male">b</option>
+      <option value="non-binary">c</option>
+      <option value="other">d</option>
+      <option value="Prefer not to answer">e</option>
+    </select>
+  </div>
+    <div style="margin-top: 10px;">
+    <input type="submit" value="Submit" onclick="showAlert()" style="width: 400px;" />
+  </div>
+  </div>
+  
+    </div>
+  </form>
+  </div>
+  </div>
+  </div>
+</body>
+</html>

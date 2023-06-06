@@ -1,0 +1,59 @@
+<!Doctype html>
+
+<head>
+    <title>Submit Alert</title>
+    <script>
+      function showAlert() {
+        alert("Submit button clicked!");
+      }
+    </script>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<title>Contact Form </title>
+
+<body>
+
+<div class="content">
+
+<h1 class="heading">Contact Us</h1>
+<p>Got any question? Send us a message and we'll respond as soon as possible. </p>
+
+
+<form action="#" method="get"  name="contactForm">
+<div class="a" style="text-align:left;">
+<label for="name" >Name:</label>
+</div>
+
+<input type="text" name="name" placeholder="Your name">
+<br>
+</br>
+
+<div class="a" style="text-align:left;">
+<label for="email" >Email Address:</label>
+</div>
+
+<input type="text" name="email" placeholder="Email">
+
+<br>
+</br>
+
+<div class="a" style="text-align:left;">
+<label for="name" >Message</label>
+</div>
+
+<textarea name="message" placeholder="Write your message"></textarea>
+<br>
+</br>
+<input type="submit" value="Submit" onclick="showAlert()" style="width: 330px;height: 30px;background-color: rgb(91, 159, 236);" />
+
+<span class="submitting"></span>
+
+</form>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
